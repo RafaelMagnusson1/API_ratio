@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import pickle
 import numpy as np
 
-rf_reg = pickle.load(open("API_ratio\modelo_ratio_version1.sav","rb"))
+rf_reg = pickle.load(open("modelo_ratio_version1.sav","rb"))
 colunas = ["sulfato","den_5700_val","diluicao","den_5700_sp"]
 
 
