@@ -4,7 +4,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copia o arquivo app.py do diretório local para o diretório de trabalho no contêiner (/app)
-COPY app.py .
+COPY .
 
 # Instala as dependências Python listadas em requirements.txt
 COPY requirements.txt .
