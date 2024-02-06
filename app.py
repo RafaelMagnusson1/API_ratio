@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import pickle
 import numpy as np
+import sklearn
 
 rf_reg = pickle.load(open("./modelo_ratio_version1.sav","rb"))
         
